@@ -1,0 +1,55 @@
+@import "../../../custom.scss";
+header {
+  width: 100vw;
+  background-color: $color-primary;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__logo {
+    height: 7rem;
+    margin: 0.5rem;
+  }
+  .nav {
+    &__list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin-right: 20rem;
+    }
+    &__item {
+      font-size: 1.33rem;
+      margin: 0 1rem 1.5rem 1rem;
+      cursor: pointer;
+      text-decoration: underline;
+      color: $color-yellow;
+      &:hover {
+        color: $color-white;
+        text-decoration: underline;
+      }
+      &:active {
+        color: $color-green;
+      }
+      a:link {
+        color: $color-secondary;
+        text-decoration: none;
+      }
+      a:visited {
+        color: $color-secondary;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $color-white;
+        text-decoration: underline;
+      }
+      a:active {
+        color: $color-green;
+        text-decoration: underline;
+      }
+    }
+  }
+}
