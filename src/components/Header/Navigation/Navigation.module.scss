@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
   }
   .header__logo {
-    height: 7rem;
+    height: 8rem;
     margin: 0.5rem;
   }
   .nav {
@@ -27,19 +27,9 @@ header {
       cursor: pointer;
       text-decoration: underline;
       color: $color-yellow;
-      &:hover {
-        color: $color-white;
-        text-decoration: underline;
-      }
-      &:active {
-        color: $color-green;
-      }
-      a:link {
-        color: $color-secondary;
-        text-decoration: none;
-      }
+      a:link,
       a:visited {
-        color: $color-secondary;
+        color: $color-yellow;
         text-decoration: none;
       }
       a:hover {
