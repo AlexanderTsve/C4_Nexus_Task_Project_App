@@ -1,4 +1,5 @@
 import Button from "../../Button/Button";
+import RatingSystem from "../../RatingSystem/RatingSystem";
 import Card from "react-bootstrap/Card";
 import styles from "./ProductGrid.module.scss";
 const ProductGrid = ({ arrOfProducts }) => {
@@ -24,6 +25,7 @@ const ProductGrid = ({ arrOfProducts }) => {
                   currency: "USD",
                 })}
               </Card.Text>
+              <RatingSystem />
               <Button variant="primary">Add to cart</Button>
             </Card.Body>
           </Card>

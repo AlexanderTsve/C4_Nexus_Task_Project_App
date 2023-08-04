@@ -1,0 +1,12 @@
+@import "../../custom.scss";
+.star-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: $color-yellow;
+}
+.off {
+  color: $color-white;
+}
