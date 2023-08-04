@@ -1,0 +1,21 @@
+@import "../../../custom.scss";
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  margin: 4rem 5.3rem;
+  border: $color-secondary inset 0.5rem;
+  width: 15vw;
+  background-color: $color-primary;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.content {
+  text-align: center;
+  color: $color-yellow;
+  &-description {
+    height: 4rem;
+    margin: 1rem;
+  }
+}
