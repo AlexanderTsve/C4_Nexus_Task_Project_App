@@ -2,9 +2,11 @@
 header {
   width: 100vw;
   background-color: $color-primary;
-  font-size: 1.5rem;
   position: fixed;
   top: 0;
+  font-family: myFont, Arial (sans-serif), Arial Black (sans-serif),
+    Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
+    Impact (sans-serif), Gill Sans (sans-serif);
   nav {
     display: flex;
     justify-content: space-between;
@@ -22,7 +24,7 @@ header {
       margin-right: 20rem;
     }
     &__item {
-      font-size: 1.33rem;
+      font-size: 2rem;
       margin: 0 1rem 1.5rem 1rem;
       cursor: pointer;
       text-decoration: underline;
