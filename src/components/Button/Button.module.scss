@@ -1,0 +1,21 @@
+@import "../../custom.scss";
+.button {
+  font-family: myFont, Arial (sans-serif), Arial Black (sans-serif),
+    Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
+    Impact (sans-serif), Gill Sans (sans-serif);
+  font-size: 2.5rem;
+  font-weight: bolder;
+  width: 11rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: $color-secondary;
+  margin: 0.5rem;
+  &:hover {
+    color: $color-primary;
+    background-color: $color-secondary;
+  }
+  &:active {
+    background-color: $color-purple;
+    color: $color-green;
+  }
+}
