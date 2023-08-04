@@ -13,9 +13,6 @@ const Navigation = () => {
           <li className={styles["nav__item"]}>
             <NavigationItem to="/watches">Watches</NavigationItem>
           </li>
-          <li className={styles["nav__item"]}>
-            <NavigationItem to="bags">Bags</NavigationItem>
-          </li>
         </ul>
       </nav>
     </header>
