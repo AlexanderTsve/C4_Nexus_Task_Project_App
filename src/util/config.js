@@ -6,3 +6,4 @@ export const legalArr = [
   "Privacy Policy",
   "Cookies Configuration",
 ];
+export const NUMBER_OF_PRODUCTS_PER_SLIDE = 8;

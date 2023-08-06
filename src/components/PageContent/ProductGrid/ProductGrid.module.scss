@@ -3,37 +3,3 @@
   display: flex;
   flex-wrap: wrap;
 }
-.container {
-  margin: 4rem 5.3rem;
-  border: $color-secondary inset 0.5rem;
-  width: 15vw;
-  background-color: $color-primary;
-  border-radius: 1rem;
-  cursor: pointer;
-}
-.content {
-  text-align: center;
-  color: $color-yellow;
-  &-title {
-    text-decoration: underline;
-    font-size: 1.5rem;
-    margin: 0.5rem;
-    font-family: dubielItalic, Arial (sans-serif), Arial Black (sans-serif),
-      Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
-      Impact (sans-serif), Gill Sans (sans-serif);
-  }
-  &-description {
-    font-family: dubielItalic, Arial (sans-serif), Arial Black (sans-serif),
-      Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
-      Impact (sans-serif), Gill Sans (sans-serif);
-    font-size: 1.2rem;
-    height: 4rem;
-    margin: 1rem;
-  }
-  &-price {
-    font-size: 1.5rem;
-    font-family: Garamond, Arial (sans-serif), Arial Black (sans-serif),
-      Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
-      Impact (sans-serif), Gill Sans (sans-serif);
-  }
-}

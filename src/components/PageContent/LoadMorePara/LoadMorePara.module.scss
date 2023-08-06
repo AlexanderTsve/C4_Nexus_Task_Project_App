@@ -1,0 +1,17 @@
+@import "../../../custom.scss";
+.load-more-para {
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+  color: $color-primary;
+  &:hover {
+    color: $color-purple;
+  }
+  &:active {
+    color: $color-green;
+  }
+  font-family: dubielItalic, Arial (sans-serif), Arial Black (sans-serif),
+    Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
+    Impact (sans-serif), Gill Sans (sans-serif);
+  font-size: 1.6rem;
+}
