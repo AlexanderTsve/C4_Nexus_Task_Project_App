@@ -39,3 +39,16 @@
       Impact (sans-serif), Gill Sans (sans-serif);
   }
 }
+.image {
+  width: 18rem;
+  text-align: center;
+}
+.spinner {
+  margin: 4rem 4rem 4rem 5rem;
+  text-align: center;
+  border: 16px solid $color-secondary;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  animation: rotate 2s infinite linear;
+}
