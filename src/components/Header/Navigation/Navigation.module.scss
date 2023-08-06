@@ -5,6 +5,7 @@ header {
   background-color: $color-primary;
   position: fixed;
   top: 0;
+  z-index: 100;
   font-family: dagtton, Arial (sans-serif), Arial Black (sans-serif),
     Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
     Impact (sans-serif), Gill Sans (sans-serif);

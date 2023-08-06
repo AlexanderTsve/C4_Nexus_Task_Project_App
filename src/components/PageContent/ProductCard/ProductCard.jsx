@@ -15,7 +15,7 @@ const ProductCard = ({ index, name, description, metal, price }) => {
         <Card.Text className={styles["content-description"]}>
           {description}
         </Card.Text>
-        <Card.Text className={styles["content-description"]}>
+        <Card.Text className={styles["content-description-metal"]}>
           Metal: {metal}
         </Card.Text>
         <Card.Text className={styles["content-price"]}>

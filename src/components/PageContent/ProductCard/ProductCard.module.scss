@@ -21,11 +21,14 @@
       Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
       Impact (sans-serif), Gill Sans (sans-serif);
   }
-  &-description {
+  &-description,
+  &-description-metal {
     font-family: dubielItalic, Arial (sans-serif), Arial Black (sans-serif),
       Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
       Impact (sans-serif), Gill Sans (sans-serif);
     font-size: 1.2rem;
+  }
+  &-description {
     height: 4rem;
     margin: 1rem;
   }
