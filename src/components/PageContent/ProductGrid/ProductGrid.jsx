@@ -14,12 +14,16 @@ const ProductGrid = ({ arrOfProducts }) => {
               src={require(`../../../assets/images/${product.name}.png`)}
             />
             <Card.Body className={styles.content}>
-              <Card.Title>{product.name}</Card.Title>
+              <Card.Title className={styles["content-title"]}>
+                {product.name}
+              </Card.Title>
               <Card.Text className={styles["content-description"]}>
                 {product.description}
               </Card.Text>
-              <Card.Text>Metal: {product.metal}</Card.Text>
-              <Card.Text>
+              <Card.Text className={styles["content-description"]}>
+                Metal: {product.metal}
+              </Card.Text>
+              <Card.Text className={styles["content-price"]}>
                 {product.price.toLocaleString("en-US", {
                   style: "currency",
                   currency: "USD",

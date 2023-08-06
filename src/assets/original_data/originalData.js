@@ -7,7 +7,6 @@ export const data = {
       type: "brooch",
       metal: "Yellow Gold",
       price: 925,
-      ratings: "3/4",
     },
     {
       name: "Diamond Wreath Brooch",
@@ -15,7 +14,6 @@ export const data = {
       type: "brooch",
       metal: "Platinum",
       price: 1995,
-      ratings: "3/4",
     },
     {
       name: "Crystal Butterfly Brooch",
@@ -23,7 +21,6 @@ export const data = {
       type: "brooch",
       metal: "Base Metal",
       price: 295,
-      ratings: "2/4",
     },
     {
       name: "Poinsettia Flower Brooch",
@@ -31,7 +28,6 @@ export const data = {
       type: "brooch",
       metal: "Yellow Gold",
       price: 2195,
-      ratings: "3/4",
     },
     {
       name: "Blue Topaz Ring",
@@ -40,7 +36,6 @@ export const data = {
       type: "ring",
       metal: "Yellow Gold",
       price: 175,
-      ratings: "3/4",
     },
     {
       name: "Oval Diamond Engagement Ring",
@@ -49,7 +44,6 @@ export const data = {
       type: "ring",
       metal: "Yellow Gold",
       price: 9500,
-      ratings: "4/4",
     },
     {
       name: "Wide Diamond Ring",
@@ -58,7 +52,6 @@ export const data = {
       type: "ring",
       metal: "White Gold",
       price: 1995,
-      ratings: "3/4",
     },
     {
       name: "Crossover Diamond Ring",
@@ -67,7 +60,6 @@ export const data = {
       type: "ring",
       metal: "Platinum",
       price: 2295,
-      ratings: "3/4",
     },
     {
       name: "Solitaire Diamond Ring",
@@ -76,7 +68,6 @@ export const data = {
       type: "ring",
       metal: "Platinum",
       price: 10500,
-      ratings: "4/4",
     },
     {
       name: "Heart Diamond Pendant",
@@ -85,7 +76,6 @@ export const data = {
       type: "pendant",
       metal: "White Gold",
       price: 1750,
-      ratings: "4/4",
     },
     {
       name: "Circle Pendant",
@@ -94,7 +84,6 @@ export const data = {
       type: "pendant",
       metal: "Rose Gold",
       price: 2295,
-      ratings: "3/4",
     },
     {
       name: "Diamond Pendant",
@@ -103,7 +92,6 @@ export const data = {
       type: "pendant",
       metal: "Yellow Gold",
       price: 1895,
-      ratings: "3/4",
     },
     {
       name: "Keys Diamond Pendant",
@@ -112,7 +100,6 @@ export const data = {
       type: "pendant",
       metal: "Yellow Gold",
       price: 875,
-      ratings: "3/4",
     },
     {
       name: "Cookie Earring",
@@ -120,7 +107,6 @@ export const data = {
       type: "earrings",
       metal: "Yellow Gold",
       price: 225,
-      ratings: "3/4",
     },
     {
       name: "Quartz Drop Earrings",
@@ -128,7 +114,6 @@ export const data = {
       type: "earrings",
       metal: "Sterling Silver",
       price: 110,
-      ratings: "3/4",
     },
     {
       name: "Knot Earrings",
@@ -137,7 +122,6 @@ export const data = {
       type: "earrings",
       metal: "Rose Gold",
       price: 2195,
-      ratings: "3/4",
     },
     {
       name: "Trinity Diamond Earrings",
@@ -145,7 +129,6 @@ export const data = {
       type: "earrings",
       metal: "Yellow Gold",
       price: 22275,
-      ratings: "3/4",
     },
     {
       name: "Ball Earrings",
@@ -154,7 +137,6 @@ export const data = {
       type: "earrings",
       metal: "Sterling Silver",
       price: 175,
-      ratings: "3/4",
     },
   ],
   watches: [
@@ -165,7 +147,6 @@ export const data = {
       type: "watch",
       metal: "Rose Gold",
       price: 10850,
-      ratings: "3/4",
     },
     {
       name: "Patek Philippe Gondolo",
@@ -174,7 +155,6 @@ export const data = {
       type: "watch",
       metal: "Yellow Gold",
       price: 9000,
-      ratings: "3/4",
     },
     {
       name: "Patek Philippe Cioccolatone",
@@ -183,7 +163,6 @@ export const data = {
       type: "watch",
       metal: "Yellow Gold",
       price: 13500,
-      ratings: "3/4",
     },
     {
       name: "Rolex Submariner",
@@ -192,7 +171,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 9250,
-      ratings: "3/4",
     },
     {
       name: "Rolex Datejust",
@@ -201,7 +179,6 @@ export const data = {
       type: "watch",
       metal: "Yellow Gold",
       price: 16900,
-      ratings: "3/4",
     },
     {
       name: "Rolex Datejust Stainless Steel",
@@ -210,7 +187,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 11500,
-      ratings: "3/4",
     },
     {
       name: "Rolex Oyster",
@@ -219,7 +195,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 3950,
-      ratings: "3/4",
     },
     {
       name: "Rolex Daytona",
@@ -228,7 +203,6 @@ export const data = {
       type: "watch",
       metal: "White Gold",
       price: 38000,
-      ratings: "3/4",
     },
     {
       name: "Breitling Bentley",
@@ -237,7 +211,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 5250,
-      ratings: "3/4",
     },
     {
       name: "Breitling Superocean",
@@ -246,7 +219,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 2850,
-      ratings: "3/4",
     },
     {
       name: "Breitling Colt",
@@ -255,7 +227,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 2400,
-      ratings: "3/4",
     },
     {
       name: "Breitling Chronomat",
@@ -264,7 +235,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 2450,
-      ratings: "3/4",
     },
     {
       name: "Omega Seamaster",
@@ -273,7 +243,6 @@ export const data = {
       type: "watch",
       metal: "Stainless Steel",
       price: 4250,
-      ratings: "3/4",
     },
     {
       name: "Cartier Pasha",
@@ -282,7 +251,6 @@ export const data = {
       type: "watch",
       metal: "White Gold",
       price: 18500,
-      ratings: "3/4",
     },
     {
       name: "Cartier Tank",
@@ -291,7 +259,6 @@ export const data = {
       type: "watch",
       metal: "Rose Gold",
       price: 5250,
-      ratings: "3/4",
     },
     {
       name: "Cartier Cougar",
@@ -300,7 +267,6 @@ export const data = {
       type: "watch",
       metal: "Yellow Gold",
       price: 7950,
-      ratings: "3/4",
     },
   ],
 };
