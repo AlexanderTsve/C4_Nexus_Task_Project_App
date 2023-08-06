@@ -1,10 +1,11 @@
 @import "../../../custom.scss";
 header {
   width: 100vw;
+  opacity: 0.9;
   background-color: $color-primary;
   position: fixed;
   top: 0;
-  font-family: myFont, Arial (sans-serif), Arial Black (sans-serif),
+  font-family: dagtton, Arial (sans-serif), Arial Black (sans-serif),
     Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
     Impact (sans-serif), Gill Sans (sans-serif);
   nav {

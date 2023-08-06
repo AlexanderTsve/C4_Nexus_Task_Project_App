@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Fragment } from "react";
 import Navigation from "../../components/Header/Navigation/Navigation";
+import FooterContent from "../../components/Footer/FooterContent/FooterContent";
 const RootLayout = () => {
   return (
     <Fragment>
@@ -8,6 +9,7 @@ const RootLayout = () => {
       <main>
         <Outlet />
       </main>
+      <FooterContent />
     </Fragment>
   );
 };
