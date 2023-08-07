@@ -4,6 +4,7 @@ import LoadMorePara from "../LoadMorePara/LoadMorePara";
 import { useState } from "react";
 import { NUMBER_OF_PRODUCTS_PER_SLIDE } from "../../../util/config";
 import CounterOfShownProducts from "../CounterOfShownProducts/CounterOfShownProducts";
+import Filter from "../Filter/Filter";
 const ProductGrid = ({ arrOfProducts }) => {
   const [loadMorePara, setLoadMorePara] = useState(
     arrOfProducts.length > NUMBER_OF_PRODUCTS_PER_SLIDE
@@ -39,6 +40,7 @@ const ProductGrid = ({ arrOfProducts }) => {
         shownProducts={shownProducts.length}
         totalProducts={arrOfProducts.length}
       />
+      <Filter products={arrOfProducts} />
       <section className={styles["products-container"]}>
         {shownProducts.map((product, index) => {
           return (
