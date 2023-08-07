@@ -1,9 +1,9 @@
 @import "../../../custom.scss";
 .container {
   margin: 4rem 5.3rem;
-  border: $color-secondary inset 0.5rem;
+  border: $color-secondary inset 0.5rem !important;
   width: 15vw;
-  background-color: $color-primary;
+  background-color: $color-primary !important;
   border-radius: 1rem;
   cursor: pointer;
   &:hover {
@@ -12,7 +12,11 @@
 }
 .content {
   text-align: center;
-  color: $color-yellow;
+  color: $color-yellow !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   &-title {
     text-decoration: underline;
     font-size: 1.5rem;
@@ -29,7 +33,6 @@
     font-size: 1.2rem;
   }
   &-description {
-    height: 4rem;
     margin: 1rem;
   }
   &-price {

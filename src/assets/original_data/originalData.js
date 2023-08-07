@@ -144,7 +144,7 @@ export const data = {
       name: "Patek Philippe Calatrava",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Patek Philippe",
       metal: "Rose Gold",
       price: 10850,
     },
@@ -152,7 +152,7 @@ export const data = {
       name: "Patek Philippe Gondolo",
       description:
         "In excellent condition and recently serviced by a certified watchmaker. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Patek Philippe",
       metal: "Yellow Gold",
       price: 9000,
     },
@@ -160,7 +160,7 @@ export const data = {
       name: "Patek Philippe Cioccolatone",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Patek Philippe",
       metal: "Yellow Gold",
       price: 13500,
     },
@@ -168,7 +168,7 @@ export const data = {
       name: "Rolex Submariner",
       description:
         "Designed to be resistant to water and corrosion. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Rolex",
       metal: "Stainless Steel",
       price: 9250,
     },
@@ -176,15 +176,15 @@ export const data = {
       name: "Rolex Datejust",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Rolex",
       metal: "Yellow Gold",
       price: 16900,
     },
     {
       name: "Rolex Datejust Stainless Steel",
       description:
-        "In excellent condition and recently serviced by a Rolex watchmaker. Comes with a one year warranty.",
-      type: "watch",
+        "In excellent condition and recently serviced by a watchmaker. Comes with a one year warranty.",
+      brand: "Rolex",
       metal: "Stainless Steel",
       price: 11500,
     },
@@ -192,7 +192,7 @@ export const data = {
       name: "Rolex Oyster",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Rolex",
       metal: "Stainless Steel",
       price: 3950,
     },
@@ -200,7 +200,7 @@ export const data = {
       name: "Rolex Daytona",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Rolex",
       metal: "White Gold",
       price: 38000,
     },
@@ -208,7 +208,7 @@ export const data = {
       name: "Breitling Bentley",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Breitling",
       metal: "Stainless Steel",
       price: 5250,
     },
@@ -216,7 +216,7 @@ export const data = {
       name: "Breitling Superocean",
       description:
         " In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Breitling",
       metal: "Stainless Steel",
       price: 2850,
     },
@@ -224,7 +224,7 @@ export const data = {
       name: "Breitling Colt",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Breitling",
       metal: "Stainless Steel",
       price: 2400,
     },
@@ -232,7 +232,7 @@ export const data = {
       name: "Breitling Chronomat",
       description:
         "Comes with the original box, papers, and instructions. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Breitling",
       metal: "Stainless Steel",
       price: 2450,
     },
@@ -240,7 +240,7 @@ export const data = {
       name: "Omega Seamaster",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Omega",
       metal: "Stainless Steel",
       price: 4250,
     },
@@ -248,7 +248,7 @@ export const data = {
       name: "Cartier Pasha",
       description:
         "Comes with the original box and instructions. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Cartier",
       metal: "White Gold",
       price: 18500,
     },
@@ -256,7 +256,7 @@ export const data = {
       name: "Cartier Tank",
       description:
         "In excellent condition and recently serviced. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Cartier",
       metal: "Rose Gold",
       price: 5250,
     },
@@ -264,7 +264,7 @@ export const data = {
       name: "Cartier Cougar",
       description:
         "In excellent condition and recently serviced by a certified watchmaker. Comes with a one year warranty.",
-      type: "watch",
+      brand: "Cartier",
       metal: "Yellow Gold",
       price: 7950,
     },
