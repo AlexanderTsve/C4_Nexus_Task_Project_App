@@ -2,6 +2,19 @@
 .filter {
   display: flex;
   flex-direction: column;
+  background-color: $color-white;
+  width: 15vw;
+  margin: 2rem;
+  border-radius: 3rem;
+  &-title {
+    margin: 2rem;
+    text-align: center;
+    color: $color-primary;
+    text-decoration: underline;
+    font-family: dubielItalic, Arial (sans-serif), Arial Black (sans-serif),
+      Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
+      Impact (sans-serif), Gill Sans (sans-serif);
+  }
 }
 .accordion {
   font-family: Garamond, Arial (sans-serif), Arial Black (sans-serif),
