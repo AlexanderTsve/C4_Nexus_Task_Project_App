@@ -1,6 +1,6 @@
-import ProductGrid from "../../components/PageContent/ProductGrid/ProductGrid";
+import PageContent from "../../components/PageContent/PageContent/PageContent";
 import { data } from "../../assets/original_data/originalData";
 const WatchesPage = () => {
-  return <ProductGrid arrOfProducts={data.watches} />;
+  return <PageContent arrOfProducts={data.watches} />;
 };
 export default WatchesPage;
