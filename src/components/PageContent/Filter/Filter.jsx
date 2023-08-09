@@ -1,7 +1,7 @@
 import styles from "./Filter.module.scss";
 import { PRICE_FILTER_CATEGORIES } from "../../../util/config";
 import Accordion from "react-bootstrap/Accordion";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 const Filter = ({ products, filterProducts }) => {
   const [filtered, setFiltered] = useState([]);
   const categories = products.map(

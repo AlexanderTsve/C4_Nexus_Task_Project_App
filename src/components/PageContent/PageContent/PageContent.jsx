@@ -5,11 +5,13 @@ import { useEffect, useState, useCallback } from "react";
 import {
   NUMBER_OF_PRODUCTS_PER_SLIDE,
   PRICE_FILTER_CATEGORIES,
+  SORT_CATEGORIES,
 } from "../../../util/config";
 import CounterOfShownProducts from "../CounterOfShownProducts/CounterOfShownProducts";
 import Filter from "../Filter/Filter";
 import { transformFilteredArr } from "../../../util/helpers";
 import ProductCategoryHeading from "../ProductCategoryHeading/ProductCategoryHeading";
+import Sort from "../Sort/Sort";
 const PageContent = ({ arrOfProducts, productType }) => {
   const [filteredProducts, setFilteredProducts] = useState(arrOfProducts);
   const [loadMorePara, setLoadMorePara] = useState(
@@ -109,8 +111,31 @@ const PageContent = ({ arrOfProducts, productType }) => {
       setLoadMorePara(false);
     }
   };
+  const sortProducts = (sortingCategory, filteredProducts) => {
+    if (sortingCategory === SORT_CATEGORIES[0]) {
+      setFilteredProducts([
+        ...filteredProducts.sort((a, b) => a.name.localeCompare(b.name)),
+      ]);
+    }
+    if (sortingCategory === SORT_CATEGORIES[1]) {
+      setFilteredProducts([
+        ...filteredProducts.sort((a, b) => b.name.localeCompare(a.name)),
+      ]);
+    }
+    if (sortingCategory === SORT_CATEGORIES[2]) {
+      setFilteredProducts([
+        ...filteredProducts.sort((a, b) => a.price - b.price),
+      ]);
+    }
+    if (sortingCategory === SORT_CATEGORIES[3]) {
+      setFilteredProducts([
+        ...filteredProducts.sort((a, b) => b.price - a.price),
+      ]);
+    }
+  };
   return (
     <section>
+      <Sort sortProducts={sortProducts} arrOfProducts={filteredProducts} />
       <ProductCategoryHeading category={productType} />
       <CounterOfShownProducts
         shownProducts={shownProducts.length}

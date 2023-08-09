@@ -12,3 +12,9 @@ export const PRICE_FILTER_CATEGORIES = [
   ">=$1,000.00 & <=$3,000.00",
   ">$3,000.00",
 ];
+export const SORT_CATEGORIES = [
+  "A-Z",
+  "Z-A",
+  "Price(low - high)",
+  "Price(high - low)",
+];

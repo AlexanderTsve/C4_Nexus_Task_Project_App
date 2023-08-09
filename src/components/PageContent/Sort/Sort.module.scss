@@ -1,0 +1,10 @@
+@import "../../../custom.scss";
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  button {
+    color: $color-primary !important;
+    background-color: $color-yellow !important;
+  }
+}
