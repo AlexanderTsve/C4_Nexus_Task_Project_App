@@ -1,12 +1,15 @@
 import Card from "react-bootstrap/Card";
-import Button from "../../Button/Button";
 import RatingSystem from "../../RatingSystem/RatingSystem";
 import styles from "./ProductCard.module.scss";
-import { useState } from "react";
+import { useState, useRef } from "react";
 const ProductCard = ({ index, name, description, metal, price }) => {
+  const productRef = useRef();
   const [imageIsLoaded, setImageIsLoaded] = useState(false);
   const loadingImageHandler = () => {
     setImageIsLoaded(true);
+  };
+  const addToCartHandler = () => {
+    alert(`${name} added to the cart! Thank you!`);
   };
   return (
     <Card key={index} className={styles.container}>
@@ -18,7 +21,7 @@ const ProductCard = ({ index, name, description, metal, price }) => {
         variant="top"
         src={require(`../../../assets/images/${name}.png`)}
       />
-      <Card.Body className={styles.content}>
+      <Card.Body className={styles.content} ref={productRef}>
         <Card.Title className={styles["content-title"]}>{name}</Card.Title>
         <Card.Text className={styles["content-description"]}>
           {description}
@@ -33,7 +36,13 @@ const ProductCard = ({ index, name, description, metal, price }) => {
           })}
         </Card.Text>
         <RatingSystem />
-        <Button variant="primary">Add to cart</Button>
+        <button
+          className={styles["content-button"]}
+          onClick={addToCartHandler}
+          variant="primary"
+        >
+          Add to cart
+        </button>
       </Card.Body>
     </Card>
   );

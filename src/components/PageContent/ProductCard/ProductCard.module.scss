@@ -41,6 +41,23 @@
       Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
       Impact (sans-serif), Gill Sans (sans-serif);
   }
+  &-button {
+    font-family: dubielItalic, Arial (sans-serif), Arial Black (sans-serif),
+      Verdana (sans-serif), Tahoma (sans-serif), Trebuchet MS (sans-serif),
+      Impact (sans-serif), Gill Sans (sans-serif);
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    color: $color-yellow;
+    background-color: $color-primary;
+    &:hover {
+      color: $color-primary;
+      background-color: $color-yellow;
+    }
+    &:active {
+      color: $color-green;
+      background-color: $color-purple;
+    }
+  }
 }
 .image {
   width: 18rem;
